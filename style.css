@@ -1,0 +1,109 @@
+@import url(node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fonts */
+section {
+    font-size: 22px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin: 2em 0 1em 1.5em;
+}
+
+section p {
+    font-size: .8em;
+    margin: 0.5em 1em 0 3em;
+}
+
+/* div with two boxes */
+.popup {
+    width: 80vw;
+    height: 80vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    box-shadow: 10px 10px 10px 10px rgb(143, 143, 143);
+    box-sizing: border-box;
+}
+
+/* left purple box and right white box */
+.purple-message, .white-contact {
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.purple-message {
+    background-image: linear-gradient(135deg, purple, rgb(85, 4, 177));
+    color: rgb(255, 255, 255);
+}
+
+/* margin for left form */
+.purple-message > form > div {
+    margin: 1em 0 0 2.2em;
+}
+
+/* form elements */
+.popup label, .popup textarea {
+    color: rgb(255, 255, 255, 0.6);
+    display: block;
+    font-size: 0.8em;
+}
+
+.popup input, .popup textarea {
+    width: 360px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.6);
+}
+
+.popup textarea {
+    height: 8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* pink button send message  */
+button {
+    display: block;
+    font-size: 0.6em;
+    font-weight: bold;
+    padding: 1.2em 1.5em;
+    margin-top: 1em;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* halb unterstrichene Überschrift */
+.white-contact > h2 > span {
+    border-bottom: 5px solid rgb(189, 0, 189);
+}
+
+/* list right: contact-information of the company */
+.white-contact ul li {
+    list-style-type: none;
+    font-size: .8em;
+    margin: 2em 1em 0 1em;
+}
+
+/* first word in list is bold */
+.white-contact > ul > li > span {
+    font-weight: bold;
+}
+
+/* list elements with lighter color */
+.grey {
+    color: rgb(168, 168, 168);
+}
+/* Icons: padding */
+.fa-solid {
+    margin: 1em 2em 0 1em;
+}
