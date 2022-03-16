@@ -60,6 +60,7 @@ section p {
 .popup input, .popup textarea {
     width: 360px;
     background-color: transparent;
+    color: white;
     border: none;
     border-bottom: 1px solid rgb(255, 255, 255, 0.6);
 }
