@@ -17,7 +17,7 @@ section h2 {
 
 section p {
     font-size: .8em;
-    margin: 0.5em 1em 0 3em;
+    margin: 0.5em 3em 0 3em;
 }
 
 /* div with two boxes */
@@ -107,4 +107,15 @@ button {
 /* Icons: padding */
 .fa-solid {
     margin: 1em 2em 0 1em;
+}
+
+/* erstes Icon in der Liste vertikal mittig */
+.fa-location-dot {
+    vertical-align: super;
+}
+
+/* Text in der Liste */
+.list-contact-items {
+    display: inline-block;
+    width: 18em;
 }
